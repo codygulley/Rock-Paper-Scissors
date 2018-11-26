@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Rock-Paper-Scissors</h1>
+        </header>
+
+        <div id="scoreboard">
+            <div id="userLabel" class="badge">User</div>
+            <div id="computerLabel" class="badge">Comp</div>
+            <span id="userScore">0</span>
+            <span id="scoreSeperator">:</span>
+            <span id="computerScore">0</span>
+        </div>
+        
+
+        <div id="message-board">
+            <h3 id="game-message">Let's play!</h3>
+            <h5 id="game-choices"></h5>
+        </div>
+
+        <div class="choices">
+            <div id="rock" class="choice"><img src="./images/Rock.png" alt="" onclick="game('ROCK')"></div>
+            <div id="paper" class="choice"><img src="./images/Paper.png" alt=""  onclick="game('PAPER')"></div>
+            <div id="scissors" class="choice"><img src="./images/Scissors.png" alt=""  onclick="game('SCISSORS')"></div>
+        </div>
+
+    </body>
+</html>

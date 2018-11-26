@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&subset=latin-ext,vietnamese');
+
+* {
+    font-family: 'Bangers', cursive;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    height: 50px;
+    padding: 20px 0px 0px 0px;
+    background-color: white;
+}
+body{
+    background-color: darkslategray;
+}
+#scoreboard{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width:150px;
+    font-size: 34pt;
+    padding: 15px 20px;
+    position: relative;
+}
+.badge{
+    background-color: salmon;
+    padding: 5px 10px;
+    color: white;
+    font-size: 20pt;
+}
+#userLabel{
+    position: absolute;
+    top: 20;
+    left: -25px;
+}
+#computerLabel{
+    position: absolute;
+    top: 20;
+    right: -40px;
+}
+
+
+#message-board{
+    text-align: center;
+    color: white;
+    font-size: 64pt;
+}
+
+
+.choices{
+    margin: 70px 0;
+    text-align: center;
+}
+.choice{
+    font-size: 64pt;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 20px;
+    display: inline-block;
+}
+.choice:hover{
+    background-color: salmon;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#game-choices{
+    font-size: 24pt;
+    letter-spacing: 3px;
+}
